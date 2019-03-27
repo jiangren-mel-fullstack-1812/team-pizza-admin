@@ -2,12 +2,13 @@
   "name": "pizza-admin",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://team-pizza-admin.herokuapp.com",
+  "homepage": "https://team-pizza-admin.herokuapp.com",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
