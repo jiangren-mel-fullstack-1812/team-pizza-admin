@@ -1,4 +1,4 @@
-## Pizza Admin APP
+## Pizza Creator Admin System
 
 ### Introduction
 
@@ -18,3 +18,4 @@ $ npm i
 $ npm run build
 $ npm start
 ```
+By default, the app is locally served at http://localhost:5000
