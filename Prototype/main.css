@@ -44,5 +44,29 @@ body {
 
 .content {
   display: grid;
+  padding: 2rem;
 }
 
+.contentHeader {
+  margin: 1rem 0;
+}
+
+.toppingsTableContainer {
+  /* border: 1px solid red; */
+}
+
+.toppingsTable {
+  /* border: 1px solid blue; */
+  width: 100%;
+  text-align: left;
+}
+
+.toppingsTable > thead {
+  font-size: 1.3rem;
+}
+
+.formItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
