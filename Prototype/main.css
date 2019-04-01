@@ -65,8 +65,17 @@ body {
   font-size: 1.3rem;
 }
 
+.toppingsTable > tbody {
+  font-size: 1.2rem;
+  vertical-align: bottom;
+}
+
+.toppingsTable img {
+  width: 3rem;
+}
+
 .formItems {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
 }
