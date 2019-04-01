@@ -1,0 +1,27 @@
+
+.contentHeader {
+  margin: 1rem 0;
+}
+
+.toppingsTableContainer {
+  /* border: 1px solid red; */
+}
+
+.toppingsTable {
+  /* border: 1px solid blue; */
+  width: 100%;
+  text-align: left;
+}
+
+.toppingsTable > thead {
+  font-size: 1.2rem;
+}
+
+.toppingsTable > tbody {
+  font-size: 1.2rem;
+  vertical-align: bottom;
+}
+
+.toppingsTable img {
+  width: 3rem;
+}

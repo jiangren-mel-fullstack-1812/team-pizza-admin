@@ -1,0 +1,9 @@
+.contentHeader {
+  margin: 1rem 0;
+}
+
+.formItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}

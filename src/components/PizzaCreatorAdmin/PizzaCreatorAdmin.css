@@ -1,8 +1,5 @@
-h1 {
-  color: blue;
-}
-
 .pizzaCreatorAdmin {
   display: grid;
-  grid-template-columns: auto 2fr;
+  grid-template-columns: auto 1fr;
 }
+

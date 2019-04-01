@@ -3,8 +3,12 @@ import './Sidebar.css';
 
 const Sidebar = () => (
   <div className='sidebar'>
-    <div>
-      <span className='sidebarHead'>Dashboard</span>
+    <div className="sidebarBrand">
+      <span>Pizza Creator Admin</span>
+    </div>
+    <div className="menu">
+      <a href='#'><span>SIZE</span></a>
+      <a href='#'><span>TOPPING</span></a>
     </div>
   </div>
 );
