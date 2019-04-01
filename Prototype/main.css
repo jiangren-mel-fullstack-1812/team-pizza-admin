@@ -1,0 +1,48 @@
+html {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+}
+
+.sidebar {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background: #001529;
+  height: 100vh;
+  
+}
+
+.sidebarBrand {
+  background: #002140;
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: grid;
+  padding: 1rem;
+  align-content: start;
+}
+
+.menu > a {
+  padding: 0.5rem;
+  color: gainsboro;
+  text-decoration: none;
+}
+
+.content {
+  display: grid;
+}
+
