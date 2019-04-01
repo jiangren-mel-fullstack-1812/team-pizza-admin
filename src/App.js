@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import MainButton from './components/MainButton';
+import PizzaCreatorAdmin from './components/PizzaCreatorAdmin';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <MainButton />
-        </header>
+        <PizzaCreatorAdmin />
       </div>
     );
   }

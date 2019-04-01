@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pizza Creator Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="app">
+    <div class='sidebar'>
+      <div class="sidebarBrand">
+        <span>Pizza Creator Admin</span>
+      </div>
+      <div class="menu">
+        <a href='#'><span>SIZE</span></a>
+        <a href='#'><span>TOPPING</span></a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="toppingsTableContainer">
+        <h2 class='contentHeader'>Toppings</h2>
+        <table class="toppingsTable">
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="https://img.icons8.com/cotton/64/000000/onion.png" /></td>
+              <td>Onion</td>
+              <td>0.99</td>
+              <td>
+                <button>Edit</button>
+                <button>Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="newToppingFormContainer">
+          <h2 class='contentHeader'>Add New Topping</h2>
+          <div class="formItems">
+            <input type="text" placeholder="Image URL" value>
+            <input type="text" placeholder="Name" value>
+            <input type="text" placeholder="Price" value>
+          </div>
+          <br>
+          <button>Add</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
