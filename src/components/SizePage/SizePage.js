@@ -5,3 +5,5 @@ const SizePage = () => (
     Size Page
   </div>
 );
+
+export default SizePage;

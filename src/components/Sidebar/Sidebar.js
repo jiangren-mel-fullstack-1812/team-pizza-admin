@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './Sidebar.css';
 
 const Sidebar = () => (
@@ -7,8 +8,9 @@ const Sidebar = () => (
       <span>Pizza Creator Admin</span>
     </div>
     <div className="menu">
-      <a href='#'><span>SIZE</span></a>
-      <a href='#'><span>TOPPING</span></a>
+      <Link to='/'>HOME</Link>
+      <Link to='/topping'>TOPPING</Link>
+      <Link to='/size'>SIZE</Link>
     </div>
   </div>
 );
