@@ -1,12 +1,10 @@
 import React from 'react';
 import './ContentBoard.css';
-import ToppingsTable from '../ToppingsTable';
-import ToppingCreateForm from '../ToppingCreateForm'
+import ToppingPage from '../ToppingPage';
 
 const ContentBoard = (props) => (
   <div className='content'>
-    <ToppingsTable />
-    <ToppingCreateForm />
+    <ToppingPage />
   </div>
 );
 
