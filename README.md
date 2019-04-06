@@ -4,6 +4,10 @@
 
 This pizza admin app provides web administrators to edit and update pizza order options. These updates would subsequently affect the options pizza ordering customers have when creating a pizza order.
 
+#### Running Locally
+* install node dependencies ` npm istall `
+* start develpment server ` npm run dev`
+By default, the development server running on http://localhost:3000
 
 #### Deployment
 * This app is automatically deployed to  Heroku\
